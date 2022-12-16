@@ -1,24 +1,24 @@
 <div class="up_footer">
     <div class="container">
         <div class="row justify_around">
-            <div class="col-3 d_flex align_items">
-                <img class="icon_footer" src="../assets/img/buy-comics-digital-comics.png" alt="Footer Icons">
+            <div class="col-2 d_flex align_items">
+                <img class="icon_footer" src="{{ Vite::asset('resources/images/buy-comics-digital-comics.png') }}" alt="Footer Icons">
                 <span class="icons_text">DIGITAL COMICS</span>
             </div>
-            <div class="col-3 d_flex align_items">
-                <img class="icon_footer" src="../assets/img/buy-comics-merchandise.png" alt="Footer Icons">
+            <div class="col-2 d_flex align_items">
+                <img class="icon_footer" src="{{ Vite::asset('resources/images/buy-comics-merchandise.png') }}" alt="Footer Icons">
                 <span class="icons_text">DC MERCHANDISE</span>
             </div>
-            <div class="col-3 d_flex align_items">
-                <img class="icon_footer" src="../assets/img/buy-comics-subscriptions.png" alt="Footer Icons">
+            <div class="col-2 d_flex align_items">
+                <img class="icon_footer" src="{{ Vite::asset('resources/images/buy-comics-subscriptions.png') }}" alt="Footer Icons">
                 <span class="icons_text">SUBSCRIPTION</span>
             </div>
-            <div class="col-3 d_flex align_items">
-                <img class="icon_footer" src="../assets/img/buy-comics-shop-locator.png" alt="Footer Icons">
+            <div class="col-2 d_flex align_items">
+                <img class="icon_footer" src="{{ Vite::asset('resources/images/buy-comics-shop-locator.png') }}" alt="Footer Icons">
                 <span class="icons_text">COMIC SHOP LOCATOR</span>
             </div>
-            <div class="col-3 d_flex align_items">
-                <img class="icon_footer" src="../assets/img/buy-dc-power-visa.svg" alt="Footer Icons">
+            <div class="col-2 d_flex align_items">
+                <img class="icon_footer" src="{{ Vite::asset('resources/images/buy-dc-power-visa.svg') }}" alt="Footer Icons">
                 <span class="icons_text">DC POWER VISA</span>
             </div>
         </div>
@@ -140,11 +140,11 @@
             <div class="col-8 d_flex align_items">
                 <span class="follow_footer">FOLLOW US</span>
                 <div class="social_icons align_items d_flex">
-                    <img class="social_icon" src="../../images/footer-facebook.png" alt="Social Icons">
-                    <img class="social_icon" src="../../images/footer-twitter.png" alt="Social Icons">
-                    <img class="social_icon" src="../../images/footer-youtube.png" alt="Social Icons">
-                    <img class="social_icon" src="../../images/footer-pinterest.png" alt="Social Icons">
-                    <img class="social_icon" src="../../images/footer-periscope.png" alt="Social Icons">
+                    <img class="social_icon" src="{{ Vite::asset('resources/images/footer-facebook.png') }}" alt="Social Icons">
+                    <img class="social_icon" src="{{ Vite::asset('resources/images/footer-twitter.png') }}" alt="Social Icons">
+                    <img class="social_icon" src="{{ Vite::asset('resources/images/footer-youtube.png') }}" alt="Social Icons">
+                    <img class="social_icon" src="{{ Vite::asset('resources/images/footer-pinterest.png') }}" alt="Social Icons">
+                    <img class="social_icon" src="{{ Vite::asset('resources/images/footer-periscope.png') }}" alt="Social Icons">
                 </div>
             </div>
         </div>

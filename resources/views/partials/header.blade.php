@@ -14,7 +14,7 @@
     <div class="container">
         <div class="row align_items justify_end header_content">
             <div class="logo_header col-4">
-                <img class="logo" src="../../images/dc-logo.png" alt="Comics">
+                <img class="logo" src="{{ Vite::asset('resources/images/dc-logo.png') }}" alt="Comics">
             </div>
             <div class="menu_header col-8">
                 <div class="menu_elements">
