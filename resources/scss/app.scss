@@ -16,6 +16,10 @@ body {
     justify-content: space-between;
 }
 
+.justify_flex_end {
+    justify-content: end;
+}
+
 .justify_center {
     justify-content: center;
 }
@@ -78,4 +82,95 @@ body {
     position: absolute;
     margin-top: 45px;
 
+}
+
+.up_header {
+    padding: 5px;
+    background-color: #0282F9;
+    color: white;
+}
+
+.visa_upheader {
+    font-size: 13px;
+}
+
+/*Footer*/
+.main_footer {
+    background-image: url(../../imagesfooter-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container_footer {
+    background-image: url(../../imagesdc-logo-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+.menu_footer_title {
+    font-weight: 700;
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.menu_footer_item {
+    color: gray;
+    text-decoration: none;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.menu_footer_element {
+    list-style-type: none;
+}
+
+.footer_logo {
+    overflow: hidden;
+}
+
+.bottom_footer {
+    background-color: #1C1C1C;
+    padding: 30px;
+}
+
+.footer_button {
+    display: inline-block;
+    border: 3px solid #0282F9;
+    color: white;
+    padding: 15px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.follow_footer {
+    color: #0282F9;
+    font-size: 20px;
+    font-weight: 400;
+    padding-right: 15px;
+}
+
+.social_icon {
+    padding: 15px;
+}
+
+.padding_bottom_15 {
+    padding-bottom: 15px;
+}
+
+.up_footer {
+    background-color: #0282F9;
+    padding: 25px;
+}
+
+.icon_footer {
+    width: 50px;
+}
+
+.icons_text {
+    color: white;
+    padding-left: 10px;
+    font-weight: 100;
+    font-size: 15px;
 }
