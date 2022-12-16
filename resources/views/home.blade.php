@@ -24,6 +24,9 @@
                     CURRENT SERIES
                 </h2>
             </div>
+            <div class="products">
+                @yield('content')
+            </div>
             <div class="load_more text_center d_flex justify_center">
                 <a class="load_more_button" href="#">LOAD MORE</a>
             </div>
