@@ -1,38 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends ('layouts.app')
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
-    <title>Laravel Comics</title>
+@section('main-content')
+<div class="container">
+    <nav>
+        <ul class="d-flex flex-wrap">
+            @foreach ($comics as $comic)
+            <li class="col-2 pb-5">
 
-    <!-- Styles -->
-    @vite('resources/js/app.js')
-</head>
-
-<body>
-    @include('partials.header')
-    <div class="jumbo">
-
-    </div>
-    <div class="main_content">
-        <div class="container">
-            <div class="series_indicator text_center">
-                <h2 class="series_text">
-                    CURRENT SERIES
-                </h2>
-            </div>
-            <div class="products">
-                @yield('content')
-            </div>
-            <div class="load_more text_center d_flex justify_center">
-                <a class="load_more_button" href="#">LOAD MORE</a>
-            </div>
-        </div>
-    </div>
-    @include('partials.footer')
-</body>
-
-</html>
+                <div class="thumb-container">
+                    <img src="{{ $comic['thumb'] }}" class="pb-3" alt="{{ $comic['title'] }}">
+                    <h6 class="text-center color_white">
+                        {{$comic['title']}}
+                    </h6>
+                </div>
+            </li>
+            @endforeach
+        </ul>
+    </nav>
+</div>
+@endsection
